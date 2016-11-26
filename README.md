@@ -1,5 +1,4 @@
-# sparkWorkshop
-For spark workshop
+# For spark workshop
 
 ##Venue: Lebanese University (UL) - Beirut - Lebanon
 
@@ -26,3 +25,6 @@ Installing open source tools and products Leaning new programming paradigms in t
 [Flyer](http://osscom2016.osscom.org/sites/default/files/files/OSSCOM%20DMS%202016_A4%20Flyer.pdf)
 
 [Registration](http://osscom2016.osscom.org/node/132): [click here](http://osscom2016.osscom.org/node/132)
+
+# Usefull links
+
