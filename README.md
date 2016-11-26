@@ -13,13 +13,15 @@ For spark workshop
 
 **Aims Of The Workshop** Install, configure and get an overview of Open Tools for big data, data manipulations and clustering. You'll learn among other how to install Linux, Java, Sacala, Spark on any intel or AMD PC then build a small "cluster". Will then use our cluster to demonstrate the map-reduce and machine learning pradigm by appling some use cases.
 
-##Targeted Audience:
+##Targeted Audience: 
+
+professionals and gradute students aspiring to learn the basics of open source tools and products in the field of Big Data Analytics using Spark Framework and become a Spark Developer (users).
 
 Installing open source tools and products Leaning new programming paradigms in the field of big data and clustering using "Open Source" only tools
 
 **Prerequisites:** Knowledge of programming, Java is best
 
-**Laptop Requirements:** Laptop Requirements: At least each 2 must have a laptop, will install Linux on them *(or on a VirtuaBox , A cappable CPU vertualisation is a best)*
+**Laptop Requirements:** Laptop Requirements: At least each 2 must have a laptop, will install Linux on them *(or on a VirtualBox , CPUs include hardware virtualization features that help accelerate VirtualBox is a best)*
 
 [Flyer](http://osscom2016.osscom.org/sites/default/files/files/OSSCOM%20DMS%202016_A4%20Flyer.pdf)
 
