@@ -1,4 +1,4 @@
-# For spark workshop
+# For spark workshop by [Open Source Lebanese Movement](http://oslm.cofares.net) and [Cnam Liban](http://www.cnam-liban.fr)
 
 ##Venue: Lebanese University (UL) - Beirut - Lebanon
 
