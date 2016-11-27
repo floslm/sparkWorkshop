@@ -1,6 +1,8 @@
 # For spark workshop by [Open Source Lebanese Movement](http://oslm.cofares.net) and [Cnam Liban](http://www.cnam-liban.fr)
 
-![OSLM logo](https://github.com/floslm/sparkWorkshop/blob/master/img/oslmLogo1_250.png)
+<a href="http://oslm.cofares.net"><img alt="Open Source lebanese Movement" src="https://github.com/floslm/sparkWorkshop/blob/master/img/oslmLogo1_250.png" align="left" height="48" width="48" /></a>
+
+<a href="http://depinfo.isae.edu.lb"><img alt="ISSAE Cnam Liban" src="https://4.bp.blogspot.com/-Xoq59H6BXZc/WBM1oLBQd4I/AAAAAAAAACY/hgEw12LXlxwDdNP3ZcVSIICbZiK_1xW1QCLcB/s1600/LibanRouge300.png" align="left" height="48" width="48" /></a>
 
 ##Venue: Lebanese University (UL) - Beirut - Lebanon
 
