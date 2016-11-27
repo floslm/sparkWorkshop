@@ -1,5 +1,7 @@
 # For spark workshop by [Open Source Lebanese Movement](http://oslm.cofares.net) and [Cnam Liban](http://www.cnam-liban.fr)
 
+![OSLM logo](https://github.com/floslm/sparkWorkshop/blob/master/img/oslmLogo1_250.png)
+
 ##Venue: Lebanese University (UL) - Beirut - Lebanon
 
 . Date(s): 2nd December 2016
