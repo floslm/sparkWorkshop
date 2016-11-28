@@ -9,7 +9,9 @@ This program picks points at random inside the square. It then checks to see if 
 Pi is then approximated as follows:
 
 >      4*M
+
 > pi = ----
+
 >       N
 
 
@@ -17,13 +19,17 @@ Pi is then approximated as follows:
 
 NUM_SAMPLES a big number (that you memory can handle)
 
-> val NUM_SAMPLES=1000000
+>  val NUM_SAMPLES=1000000
 
-> val count = sc.parallelize(1 to NUM_SAMPLES).map{i =>
+>  val count = sc.parallelize(1 to NUM_SAMPLES).map{i =>
+
 >  val x = Math.random()
+
 >  val y = Math.random()
->  if (x*x + y*y < 1) 1 else 0
->}.reduce(_ + _)
+
+>  if (x * x + y * y < 1) 1 else 0
+
+> }.reduce(_ + _)
 
 
 >println("Pi is roughly " + 4.0 * count / NUM_SAMPLES)
