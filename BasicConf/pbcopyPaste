@@ -1,0 +1,8 @@
+#install xsel
+
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
+# or install xclip
+xclip -i -selection c file_to_copy_to_clipboard.txt
+xclip -o -selection c > file_to_paste_to.txt

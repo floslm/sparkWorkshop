@@ -1,0 +1,2 @@
+export SPARK_HOME=~/spark-2.0.2
+export PATH=$PATH:$SPARK_HOME/bin
