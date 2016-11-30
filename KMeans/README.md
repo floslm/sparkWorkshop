@@ -1,11 +1,12 @@
 ##Imports
 
+```spark
 >    import org.apache.spark.mllib.clustering.KMeans
 
 >    import org.apache.spark.mllib.linalg.Vectors
 
 >    import org.apache.spark.mllib.util.KMeansDataGenerator
-
+```
 
 ##Generate data
 
@@ -23,22 +24,22 @@ Generate test data for KMeans. This class first chooses k cluster centers from a
 * numPartitions - Number of partitions of the generated RDD; default 2
 
 ###Type theses
-
+```
 > val donneesGenerees = KMeansDataGenerator.generateKMeansRDD(sc, 1000, 5, 3, 5, 1)
 
 > val donnees = donneesGenerees.map(s => Vectors.dense(s)).cache()
 
 > donnees.take(2)
-
+```
 ###Save daTA
-
+```
 > val donneesTxt = donnees.map(l => l.toString.filter(c => c != '[' & c != ']'))
 
 > donneesTxt.saveAsTextFile("data/datas")
-
+```
 ### Apply k-means
 
-
+```
 > val nbClusters = 5
 
 > val nbIterations = 200
@@ -56,3 +57,6 @@ Generate test data for KMeans. This class first chooses k cluster centers from a
 // Enregistrer les indices dans un fichier texte
 
 > indices.saveAsTextFile("data/indices")
+```
+
+##Use gbuplot to visualise the outputs
