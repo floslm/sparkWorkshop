@@ -1,4 +1,6 @@
+derby.log
 target/
+metastore_db/
 project/boot/
 project/build/target/
 project/plugins/lib_managed/

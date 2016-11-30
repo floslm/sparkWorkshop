@@ -30,6 +30,27 @@ counts.collect
 
 `:load wordCount.scala`
 
+##More advanced
+
+###Removing useless chars
+```scala
+//Going to remove : / and " by replacing it by space
+val regex = "[:/\"]".r
+
+val ntext = text.map(line => regex.replaceAllIn(line, " "))
+```
+
+###The count words
+```scala
+val counts = ntext.flatMap(line => line.split(" ")).map(word => (word,1)).reduceByKey(_+_)
+counts.foreach(println(_))
+```
+
+
+
+
+
+
 
 
 
